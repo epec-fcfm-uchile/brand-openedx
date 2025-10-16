@@ -1,14 +1,21 @@
 // Use this file to define style overrides for @edx/paragon
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
+#root header .logo{
+    height: unset !important;
+    top: unset !important;
+}
 .epec_brand_img {
-  height: 54px;
+  height: 54px !important;
   max-height: 54px;
   width: auto;
   padding: 0 !important;
 }
 @media (min-width:600px){
+  .learning-header{
+    height: 75px !important;
+  }
   .epec_brand_img {
-  height: 64px;
+  height: 64px !important;
   max-height: 64px;
 }
 }
