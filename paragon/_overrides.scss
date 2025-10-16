@@ -1,2 +1,14 @@
 // Use this file to define style overrides for @edx/paragon
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
+.epec_brand_img {
+  height: 54px;
+  max-height: 54px;
+  width: auto;
+  padding: 0 !important;
+}
+@media (min-width:600px){
+  .epec_brand_img {
+  height: 64px;
+  max-height: 64px;
+}
+}
